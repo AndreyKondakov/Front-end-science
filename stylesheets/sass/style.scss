@@ -56,7 +56,85 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------HEADER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+.welcome-section {
+  height: 100vh;
+  a {
+    text-decoration: none;
+  }
+  header.header {
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid #c1c1c18c;
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    .logo {
+      float: left;
+      img {
+        margin: 9px 0 0 63px;
+      }
+    }
+    .main-nav {
+      float: right;
+    }
+    nav li, nav ul  {
+      float: left;
+    }
+    .menu li {
+      float: left;
+      a {
+        display: block;
+        color: #fff;
+        padding: 36px 22px;
+        border-bottom: 1px solid transparent;
+      }
+      a:hover {
+        border-bottom: 1px solid #f7b940;;
+      }
+    }
+    .phone li {
+      margin-right: 20px;
+    }
+    .lang a, .phone li a {
+      color: #53d0fb;
+      line-height: 85px;
+    }
+    .lang
+    a {
+      padding: 0 5px;
+      border-right: 1px solid #53d0fb;
+    }
+    a.last-lang {
+      border-right: 1px solid transparent;
+    }
+  }
 
+  .slider-info {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    img {
+      width: 30%;
+    }
+    .welcome-slogan {
+      color: #fff;
+      margin-top: 50px;
+      h2 {
+        //font-size: 48px;
+      }
+    }
+  }
+
+
+}
+
+
+
+.img-slider1 {
+  width: 100%;
+}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -72,3 +150,4 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------OTHER----------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+
