@@ -48,7 +48,55 @@ a:hover                        { text-decoration:none; }
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------FONTS----------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "MyriadProRegular";
+  src: url("../../fonts/MyriadPro/MyriadPro-Regular.otf") format("opentype")
+}
 
+@font-face {
+  font-family: "MyriadProBold";
+  src: url("../../fonts/MyriadPro/MyriadPro-Bold.otf") format("opentype")
+}
+//
+//@font-face {
+//  font-family: "MyriadProItalic";
+//  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+//  src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+//  url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+//  url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+//  font-style: normal;
+//  font-weight: normal;
+//}
+//
+//@font-face {
+//  font-family: "MyriadProSemiBold";
+//  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+//  src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+//  url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+//  url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+//  font-style: normal;
+//  font-weight: normal;
+//}
+//
+//@font-face {
+//  font-family: "MyriadProBoldItalic";
+//  src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+//  src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+//  url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+//  url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+//  font-style: normal;
+//  font-weight: normal;
+//}
+//
+//@font-face {
+//  font-family: "MyriadProSemiBoldItalic";
+//  src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+//  src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+//  url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+//  url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+//  font-style: normal;
+//  font-weight: normal;
+//}
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------WRAPPER--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
@@ -69,7 +117,8 @@ a:hover                        { text-decoration:none; }
     right: 0;
     top: 0;
     left: 0;
-    .logo {
+  }
+  .logo {
       float: left;
       img {
         margin: 9px 0 0 63px;
@@ -88,6 +137,7 @@ a:hover                        { text-decoration:none; }
         color: #fff;
         padding: 36px 22px;
         border-bottom: 1px solid transparent;
+        font-family: MyriadProRegular, sans-serif;
       }
       a:hover {
         border-bottom: 1px solid #f7b940;;
@@ -99,8 +149,10 @@ a:hover                        { text-decoration:none; }
     .lang a, .phone li a {
       color: #53d0fb;
       line-height: 85px;
+      font-family: MyriadProRegular, sans-serif;
     }
     .lang {
+      margin-right: 5px;
       a {
         padding: 0 5px;
         border-right: 1px solid #53d0fb;
@@ -109,7 +161,7 @@ a:hover                        { text-decoration:none; }
         border-right: 1px solid transparent;
       }
     }
-  }
+
   .slider-info {
     position: absolute;
     top: 20%;
@@ -121,8 +173,12 @@ a:hover                        { text-decoration:none; }
     .welcome-slogan {
       color: #fff;
       margin: 30px 0;
-      h2 {
-        //font-size: 48px;
+      font-size: 24px;
+      h2:first-child {
+        font-family: MyriadProBold;
+      }
+      h2:last-child {
+        font-family: MyriadProRegular;
       }
     }
   }
@@ -136,10 +192,14 @@ a:hover                        { text-decoration:none; }
 }
 
 
-
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+
+//paralax
+
+
+
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
