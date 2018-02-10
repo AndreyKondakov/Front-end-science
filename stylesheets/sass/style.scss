@@ -196,9 +196,118 @@ a:hover                        { text-decoration:none; }
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 
-//paralax
+section.about-f-e-devel {
+  .parallax, .info {
+    width: 40%;
+    float: left;
+    margin: 80px 0 40px;
+  }
+  .parallax {
+    text-align: center;
+    position: relative;
+    left: 5%;
+    img {
+      width: 45%;
+    }
+    h3 {
+      font-family: "MyriadProRegular";
+      font-size: 19px;
+    }
+  }
+  .info {
+    p {
+      margin: 12px 0;
+      font-size: 13px;
+    }
+    h4.border {
+      border: 3px solid #53d0fb;
+      padding: 4% 7%;
+      text-align: center;
+      font-size: 16px;
+      margin: 12% 0;
+    }
+  }
+}
+div.skills {
+  .info {
+    margin-top: 20px;
+    span.title, p {
+      position: relative;
+      top: 10px;
+    }
+  }
+  ul.tech-list {
+    li {
+      float: left;
+      width: 33.33333%;
+      padding: 4% 5% 2%;
+      background-color: #f4f4f4;
+    }
+    .icon-holder {
+      height: 218px;
+    }
+  }
+  .number {
+    font-size: 50px;
+    float: left;
+    margin-right: 15px;
+  }
+  .title {
+    font-family: "MyriadProBold";
+  }
+}
 
+.must-know-section {
+  float: left;
+  width: 100%;
+  h3.title {
+    text-align: center;
+    margin: 100px 0 50px;
+    font-family: "MyriadProBold";
+    font-size: 24px;
+  }
+  .main-block {
+    width: 100%;
+    .tech-block {
+      width: 62%;
+      position: relative;
+      left: 9%;
+      float: left;
+      margin-bottom: 50px;
+    }
 
+    }
+    .info-wrapper {
+      width: 22%;
+      float: left;
+      position: relative;
+      left: 130px;
+      top: 30px;
+    }
+     p {
+      margin: 20px 17px;
+    }
+  
+  span.title {
+    padding: 30px 0;
+    border: 2px solid #53d0fb;
+    display: block;
+    width: 288px;
+    font-family: "MyriadProBold";
+    text-align: center;
+    font-size: 18px;
+    opacity: 1;
+    background-color: #ffffff29;
+  }
+  .img-code {
+    float: right;
+    width: 50%;
+    img {
+      width: 520px;
+      height: 300px;
+    }
+  }
+}
 
 
 /*----------------------------------------------------------------------------------*/
@@ -235,4 +344,19 @@ a:hover                        { text-decoration:none; }
     background-color: #fff;
     color: #000;
   }
+}
+
+.btn-tech-info {
+  width: 150px;
+  height: 35px;
+  background-color: #53d0fb;
+  border: none;
+  overflow: hidden;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+  font-family: "MyriadProBold";
+}
+.btn-tech-info:hover {
+  background-color:  #000;
+  color: #fff;
 }
