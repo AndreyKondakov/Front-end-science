@@ -133,6 +133,7 @@ font-face {
     right: 0;
     top: 0;
     left: 0;
+    z-index: 99;
   }
   .logo {
       float: left;
@@ -180,9 +181,12 @@ font-face {
 
   .slider-info {
     position: absolute;
-    top: 20%;
+    top: 0;
     width: 100%;
     text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 2;
+    padding-top: 9%;
     img {
       width: 30%;
     }
