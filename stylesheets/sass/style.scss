@@ -57,6 +57,22 @@ a:hover                        { text-decoration:none; }
   font-family: "MyriadProBold";
   src: url("../../fonts/MyriadPro/MyriadPro-Bold.otf") format("opentype")
 }
+@font-face {
+  font-family: "MyriadPro-SemiboldIt";
+  src: url("../../fonts/MyriadPro/MyriadPro-SemiboldIt.otf") format("opentype")
+}
+
+@font-face {
+  font-family: "Geometria-Light";
+  src: url("../../fonts/Geometria/Geometria-Light.otf") format("opentype")
+}
+
+font-face {
+  font-family: "GeometriaRegular";
+  src: url("../../fonts/Geometria/Geometria.otf") format("opentype")
+}
+
+
 //
 //@font-face {
 //  font-family: "MyriadProItalic";
@@ -217,7 +233,8 @@ section.about-f-e-devel {
   .info {
     p {
       margin: 12px 0;
-      font-size: 13px;
+      font-size: 15px;
+      font-family: "MyriadProRegular";
     }
     h4.border {
       border: 3px solid #53d0fb;
@@ -234,6 +251,9 @@ div.skills {
     span.title, p {
       position: relative;
       top: 10px;
+    }
+    p {
+      font-family: "MyriadProRegular";
     }
   }
   ul.tech-list {
@@ -296,6 +316,8 @@ div.skills {
     }
     p {
       margin: 20px 17px;
+      font-family: "Geometria-Light";
+      font-size: 14px;
     }
   .info-wrapper:last-child {
     position: relative;
@@ -337,9 +359,108 @@ div.skills {
 /*-------------------------------------FOOTER---------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 
+.footer {
+  height: 100%;
+  height: 100vh;
+  float: left;
+  width: 100%;
+  display: flex;
+  -webkit-box-orient: {flex-direction: column};
+  flex-direction: column;
+  .contacts {
+    width: 100%;
+    height: 423px;
+    background-image: url(http://s1.radikale.ru/uploads/2018/2/11/7745f1757346b438e9d0aaaca808b21f-full.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 75%;
+    h5 {
+      font-family: "MyriadProBold";
+      font-size: 18px;
+    }
+    .contact {
+      width: 30%;
+      float: left;
+      ul li {
+        font-family: "MyriadProRegular";
+        font-size: 13px;
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .form-wrapper {
+      width: 68%;
+      float: right;
+      input {
+        width: 30%;
+        height: 30px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 5px;
+        margin: 40px 14px 30px 0;
+        color: #fff;
+        font-family: "MyriadProRegular";
+      }
+      .message {
+        width: 97%;
+        height: 130px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 5px;
+        resize: none;
+        color: #fff;
+        margin-bottom: 30px;
+        font-family: "MyriadProRegular";
+      }
+      .thanks {
+        float: right;
+        margin-right: 20%;
+        font-family: "MyriadProRegular";
+        font-size: 15px;
+      }
+    }
+    .conteiner {
+      margin-left: 20%;
+      width: 60%;
+      padding-top: 50px;
+    }
+  }
+  .bg-footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    color: #fff;
+  }
+  ::-webkit-input-placeholder {color:#fff;}
+  ::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+  :-moz-placeholder           {color:#fff;}/* Firefox 18- */
+  :-ms-input-placeholder      {color:#fff;}
+  .social {
+    margin: auto 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      margin: 0 7px;
+      vertical-align: middle;
+    }
+    li.footer-logo {
+      margin-right: 20px;
+    }
+    ul {
+      text-align: center;
+    }
+    span {
+      position: relative;
+      top: 12px;
+      font-family: "GeometriaRegular";
+    }
+  }
+}
+
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------OTHER----------------------------------------*/
 /*----------------------------------------------------------------------------------*/
+
 
 // Buttons
 .buttons {
@@ -358,6 +479,7 @@ div.skills {
     border: 1px solid #414a56;
     width: 227px;
     font-size: 18px;
+    font-family: "MyriadProRegular";
   }
   .btn-answer:hover {
     background-color: #fff;
