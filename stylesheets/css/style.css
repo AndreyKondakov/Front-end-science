@@ -262,12 +262,14 @@ div.skills ul.tech-list .icon-holder {
   height: 218px; }
 
 div.skills .number {
-  font-size: 50px;
+  font-size: 55px;
   float: left;
-  margin-right: 15px; }
+  margin-right: 15px;
+  font-weight: 600; }
 
 div.skills .title {
-  font-family: "MyriadProBold"; }
+  font-family: "MyriadProBold";
+  font-size: 15px; }
 
 .must-know-section {
   float: left;
