@@ -365,7 +365,7 @@ div.skills .title {
   box-sizing: border-box;
   background: #333;
   color: #fff;
-  background-size: 100%; }
+  background-size: cover; }
 
 .slide:nth-of-type(1) {
   background-color: #fff;
@@ -627,3 +627,20 @@ footer {
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased; }
+
+@media screen and (max-width: 1170px) {
+  .welcome-section header.header {
+    overflow: hidden; } }
+
+@media screen and (max-width: 768px) {
+  .welcome-section .slider-info img {
+    margin-top: 107px; }
+  .footer .contacts .conteiner {
+    margin-left: 3%;
+    width: 97%;
+    padding-top: 34px; }
+  div.skills ul.tech-list li {
+    float: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center; } }
