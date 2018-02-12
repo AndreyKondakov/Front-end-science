@@ -55,3 +55,6 @@ previous.onclick = function() {
   previousSlide();
 };
 
+$(document).ready(function(){
+  $('.parallax').parallax();
+});

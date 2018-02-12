@@ -625,3 +625,6 @@ footer {
     backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased; }
+
+.parallax-container {
+  height: 500px; }
