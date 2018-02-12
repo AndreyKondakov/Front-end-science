@@ -58,7 +58,7 @@ previous.onclick = function() {
 $(document).ready(function() {
   $('.my-paroller').paroller();
   $("#my-element").paroller({ factor: '-0.7', type: 'foreground', direction: 'vertical' });
-  
+
   var shareMe = $('.share i');
 
   $('.about-f-e-devel, .must-know-section, .skills, .social').hover(function(){
@@ -72,4 +72,12 @@ $(document).ready(function() {
     shareMe.css({ "color": "#fff"});
   });
 
+
+  (function($){
+    $(function() {
+      $('.menu__icon').on('click', function() {
+        $(this).closest('.mobile-menu').toggleClass('menu_state_open');
+      });
+    });
+  })(jQuery);
 });
