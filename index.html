@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="stylesheets/css/style.css"/>
   <link rel="stylesheet" type="text/css" href="stylesheets/css/buttons.css"/>
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -54,13 +55,14 @@
     <!--</div>-->
     <div class="carousel">
       <ul id="slides">
-        <li class="slide showing">Slide 1</li>
-        <li class="slide">Slide 2</li>
-        <li class="slide">Slide 3</li>
+        <li class="slide showing"></li>
+        <li class="slide"></li>
+        <li class="slide"></li>
       </ul>
-      <button class="controls" id="pause">Pause</button>
-      <button class="controls" id="previous">Previous</button>
-      <button class="controls" id="next">Next</button>
+      <!--<button class="controls" id="pause">Pause</button>-->
+      <a class="controls" id="pause"><i class="fa fa-pause fa-2x" aria-hidden="true"></i></a>
+      <a class="controls" id="previous"><i class="fa fa-angle-left fa-4x" aria-hidden="true"></i></a>
+      <a class="controls" id="next"><i class="fa fa-angle-right fa-4x" aria-hidden="true"></i></a>
     </div>
     <div class="slider-info">
       <img class="img-slider1" src="images/logo_welcome.png" alt="img-slider">

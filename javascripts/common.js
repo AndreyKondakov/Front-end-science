@@ -2,7 +2,7 @@
 
 var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
-var slideInterval = setInterval(nextSlide,3000);
+var slideInterval = setInterval(nextSlide,4000);
 
 function nextSlide() {
   goToSlide(currentSlide+1);
@@ -23,13 +23,13 @@ var playing = true;
 var pauseButton = document.getElementById('pause');
 
 function pauseSlideshow() {
-  pauseButton.innerHTML = 'Play';
+  pauseButton.innerHTML = '<i class="fa fa-play fa-2x" aria-hidden="true"></i>';
   playing = false;
   clearInterval(slideInterval);
 }
 
 function playSlideshow() {
-  pauseButton.innerHTML = 'Pause';
+  pauseButton.innerHTML = '<i class="fa fa-pause fa-2x" aria-hidden="true"></i>';
   playing = true;
   slideInterval = setInterval(nextSlide,2000);
 }

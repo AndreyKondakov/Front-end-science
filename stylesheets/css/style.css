@@ -210,7 +210,10 @@ font-face {
       .welcome-section .slider-info .welcome-slogan h2:last-child {
         font-family: MyriadProRegular; }
   .welcome-section .carousel {
-    height: 100%; }
+    height: 100%;
+    color: #fff; }
+    .welcome-section .carousel a, .welcome-section .carousel i {
+      cursor: pointer; }
     .welcome-section .carousel #slides img {
       width: 100%;
       height: 100%; }
@@ -467,6 +470,7 @@ div.skills .title {
   .footer :-ms-input-placeholder {
     color: #fff; }
   .footer .social {
+    margin: 20px 0;
     margin: auto 0;
     text-align: center; }
     .footer .social li {
@@ -549,83 +553,74 @@ div.skills .title {
     border-left-color: #173a71;
     transition: border-color 0s ease-out 0.5s, width 0.25s ease-out 0.5s, height 0.25s ease-out 0.75s; }
 
-/* Slide up */
-.link-slideup {
-  color: #34495e;
-  position: relative;
-  top: 20px; }
-
-.link-slideup a {
-  overflow: hidden;
-  font-weight: 500; }
-
-.link-slideup a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(52, 73, 94, 0.2);
-  content: '';
-  -webkit-transition: -webkit-transform 0.2s;
-  transition: transform 0.2s;
-  -webkit-transform: translateY(95%);
-  transform: translateY(95%); }
-
-.link-slideup a:hover::before,
-.link-slideup a:focus::before {
-  -webkit-transform: translateY(0);
-  transform: translateY(0); }
-
-/* Slide right */
-.link-slideright {
-  background: rgba(149, 165, 166, 0.3); }
-
-.link-slideright a {
-  overflow: hidden;
-  font-weight: 500; }
-
-.link-slideright a::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  background: rgba(149, 165, 166, 0.4);
-  content: '';
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-transform: scaleY(0.618) translateX(-100%);
-  transform: scaleY(0.618) translateX(-100%); }
-
-.link-slideright a:hover::before,
-.link-slideright a:focus::before {
-  -webkit-transform: scaleY(0.618) translateX(0);
-  transform: scaleY(0.618) translateX(0); }
-
-section {
-  position: relative;
-  z-index: 1;
-  /* needed for setting pseudo-element z-index */
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-section a {
-  position: relative;
-  display: inline-block;
-  outline: none;
-  color: #404d5b;
-  vertical-align: bottom;
-  text-decoration: none;
-  white-space: nowrap; }
-
-section a::before,
-section a::after {
-  pointer-events: none;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased; }
+footer {
+  /* Slide up */
+  /* Slide right */ }
+  footer .link-slideup {
+    color: #34495e;
+    position: relative;
+    top: 20px; }
+  footer .link-slideup a {
+    overflow: hidden;
+    font-weight: 500; }
+  footer .link-slideup a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 73, 94, 0.2);
+    content: '';
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    -webkit-transform: translateY(95%);
+    transform: translateY(95%); }
+  footer .link-slideup a:hover::before,
+  footer .link-slideup a:focus::before {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  footer .link-slideright {
+    background: rgba(149, 165, 166, 0.3); }
+  footer .link-slideright a {
+    overflow: hidden;
+    font-weight: 500; }
+  footer .link-slideright a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(149, 165, 166, 0.4);
+    content: '';
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -webkit-transform: scaleY(0.618) translateX(-100%);
+    transform: scaleY(0.618) translateX(-100%); }
+  footer .link-slideright a:hover::before,
+  footer .link-slideright a:focus::before {
+    -webkit-transform: scaleY(0.618) translateX(0);
+    transform: scaleY(0.618) translateX(0); }
+  footer section {
+    position: relative;
+    z-index: 1;
+    /* needed for setting pseudo-element z-index */
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
+  footer section a {
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #404d5b;
+    vertical-align: bottom;
+    text-decoration: none;
+    white-space: nowrap; }
+  footer section a::before,
+  footer section a::after {
+    pointer-events: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased; }
