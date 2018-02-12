@@ -342,7 +342,7 @@ div.skills {
     padding: 30px 0;
     //border: 2px solid #53d0fb;
     display: block;
-    width: 270px;
+    width: 260px;
     font-family: "MyriadProBold";
     text-align: center;
     font-size: 18px;
@@ -776,16 +776,31 @@ footer {
   .welcome-section .slider-info img {
     margin-top: 107px;
   }
-
-  .footer .contacts .conteiner {
-    margin-left: 3%;
-    width: 97%;
-    padding-top: 34px;
-  }
   div.skills ul.tech-list li {
     float: inherit;
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  div.skills .info {
+    margin-left: 15px;
+  }
+  section.about-f-e-devel {
+    .parallax {
+      left: 0;
+      width: 30%;
+    }
+    .info {
+      width: 65%;
+    }
+  }
+  .footer .contacts .form-wrapper input {
+    margin: 10px 14px 30px 0;
+    width: 80%;
+  }
+  .footer .contacts .conteiner {
+    margin-left: 3%;
+    width: 97%;
+    padding-top: 34px;
   }
 }
