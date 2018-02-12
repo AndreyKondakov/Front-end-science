@@ -206,7 +206,7 @@ font-face {
   }
   .carousel {
     height: 100%;
-    img {
+    #slides img {
       width: 100%;
       height: 100%;
     }
@@ -398,18 +398,17 @@ div.skills {
   box-sizing: border-box;
   background: #333;
   color: #fff;
+  background-size: 100%;
 }
 
 .slide:nth-of-type(1) {
-  background: red;
   background-image: url(../../images/slider1.png);
 }
 .slide:nth-of-type(2) {
-  background: orange;
   background-image: url(../../images/slider2.png);
 }
 .slide:nth-of-type(3) {
-  background: green;  background-image: url(../../images/slider3.png);
+  background-image: url(../../images/slider3.png);
 }
 
 
@@ -418,6 +417,20 @@ div.skills {
   position: absolute;
   bottom: 10%;
   left: 15px;
+}
+
+#previous {
+  z-index: 5;
+  position: absolute;
+  bottom: 50%;
+  left: 15px;
+}
+
+#next {
+  z-index: 5;
+  position: absolute;
+  bottom: 50%;
+  right: 15px;
 }
 
 
