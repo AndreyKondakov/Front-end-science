@@ -57,6 +57,19 @@ previous.onclick = function() {
 
 $(document).ready(function() {
   $('.my-paroller').paroller();
-
   $("#my-element").paroller({ factor: '-0.7', type: 'foreground', direction: 'vertical' });
+  
+  var shareMe = $('.share i');
+
+  $('.about-f-e-devel, .must-know-section, .skills, .social').hover(function(){
+    $('.share').css({ "color": "#000"});
+    shareMe.css({ "border-color": "#000"});
+    shareMe.css({ "color": "#000"});
+
+  },function(){
+    $('.share').css({"color": "#fff"});
+    shareMe.css({ "border-color": "#fff"});
+    shareMe.css({ "color": "#fff"});
+  });
+
 });
