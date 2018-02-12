@@ -55,3 +55,8 @@ previous.onclick = function() {
   previousSlide();
 };
 
+$(document).ready(function() {
+  $('.my-paroller').paroller();
+
+  $("#my-element").paroller({ factor: '-0.7', type: 'foreground', direction: 'vertical' });
+});

@@ -222,31 +222,30 @@ font-face {
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
-section.about-f-e-devel .parallax, section.about-f-e-devel .info {
-  width: 40%;
-  float: left;
-  margin: 80px 0 40px; }
-
-section.about-f-e-devel .parallax {
-  text-align: center;
-  position: relative;
-  left: 5%; }
-  section.about-f-e-devel .parallax img {
-    width: 45%; }
-  section.about-f-e-devel .parallax h3 {
-    font-family: "MyriadProRegular";
-    font-size: 19px; }
-
-section.about-f-e-devel .info p {
-  margin: 12px 0;
-  font-size: 15px;
-  font-family: "MyriadProRegular"; }
-
-section.about-f-e-devel .info h4.border {
-  padding: 4% 7%;
-  text-align: center;
-  font-size: 16px;
-  margin: 12% 0; }
+section.about-f-e-devel {
+  overflow: hidden; }
+  section.about-f-e-devel .parallax, section.about-f-e-devel .info {
+    width: 40%;
+    float: left;
+    margin: 80px 0 40px; }
+  section.about-f-e-devel .parallax {
+    text-align: center;
+    position: relative;
+    left: 5%; }
+    section.about-f-e-devel .parallax img {
+      width: 45%; }
+    section.about-f-e-devel .parallax h3 {
+      font-family: "MyriadProRegular";
+      font-size: 19px; }
+  section.about-f-e-devel .info p {
+    margin: 12px 0;
+    font-size: 15px;
+    font-family: "MyriadProRegular"; }
+  section.about-f-e-devel .info h4.border {
+    padding: 4% 7%;
+    text-align: center;
+    font-size: 16px;
+    margin: 12% 0; }
 
 div.skills .info {
   margin-top: 20px; }
@@ -369,12 +368,15 @@ div.skills .title {
   background-size: 100%; }
 
 .slide:nth-of-type(1) {
+  background-color: #fff;
   background-image: url(../../images/slider1.png); }
 
 .slide:nth-of-type(2) {
+  background-color: #fff;
   background-image: url(../../images/slider2.png); }
 
 .slide:nth-of-type(3) {
+  background-color: #fff;
   background-image: url(../../images/slider3.png); }
 
 #pause {
