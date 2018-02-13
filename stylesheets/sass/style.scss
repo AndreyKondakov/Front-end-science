@@ -467,15 +467,27 @@ div.skills {
       font-family: "MyriadProBold";
       font-size: 18px;
     }
+    h5:first-child {
+      position: absolute;
+    }
     .contact {
       width: 30%;
       float: left;
+      display: flex;
       ul li {
         font-family: "MyriadProRegular";
         font-size: 13px;
         margin-top: 40px;
-        display: flex;
-        flex-direction: column;
+        //display: flex;
+        //flex-direction: column;
+        //span.second-string {
+        //  margin-left: 29px;
+        //}
+        i {
+          margin-right: 11px;
+          margin-top: 4px;
+          color: #53d0fb
+        }
       }
     }
     .form-wrapper {
