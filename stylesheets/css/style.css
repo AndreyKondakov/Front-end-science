@@ -190,7 +190,7 @@ font-face {
     vertical-align: middle;
     font-family: MyriadProRegular, sans-serif; }
   .welcome-section .lang {
-    margin-right: 8px; }
+    margin-right: 26px; }
     .welcome-section .lang a {
       padding: 0 12px;
       border-right: 1px solid #53d0fb; }
@@ -229,7 +229,8 @@ font-face {
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 section.about-f-e-devel {
-  overflow: hidden; }
+  overflow: hidden;
+  margin-top: 48px; }
   section.about-f-e-devel .parallax, section.about-f-e-devel .info {
     width: 40%;
     float: left;
@@ -244,38 +245,49 @@ section.about-f-e-devel {
       font-family: "MyriadProRegular";
       font-size: 3em; }
   section.about-f-e-devel .info p {
-    margin: 12px 0;
-    font-size: 18px;
+    margin: 21px 0;
+    font-size: 1.7em;
     font-family: "MyriadProRegular"; }
   section.about-f-e-devel .info h4.border {
-    padding: 4% 7%;
+    padding: 7% 4%;
     text-align: center;
     font-size: 2.55em;
     margin: 12% 0;
     font-family: "MyriadPro-Semibold", sans-serif; }
 
-div.skills .info {
-  margin-top: 20px; }
-  div.skills .info span.title, div.skills .info p {
-    position: relative;
-    top: 38px; }
-  div.skills .info p {
-    font-family: "GeometriaRegular";
-    font-size: 1.5em;
-    top: 43px; }
+div.skills .info span.title, div.skills .info p {
+  position: relative;
+  top: 22px; }
+
+div.skills .info p {
+  font-family: "GeometriaRegular";
+  font-size: 1.5em;
+  top: 26px; }
 
 div.skills ul.tech-list li {
   float: left;
   width: 33.33333%;
-  padding: 4% 8% 2%;
+  padding: 4% 5.2% 2%;
   background-color: #f4f4f4; }
+
+div.skills ul.tech-list li:first-child .icon-holder {
+  text-align: right; }
+
+div.skills ul.tech-list li:first-child .info {
+  margin-left: 146px; }
+
+div.skills ul.tech-list li:nth-child(2) .icon-holder {
+  text-align: center; }
+
+div.skills ul.tech-list li:nth-child(2) .info {
+  margin-left: 75px; }
 
 div.skills ul.tech-list .icon-holder {
   height: 218px; }
 
 div.skills .number {
   font-family: "MyriadProBold";
-  font-size: 10em;
+  font-size: 9em;
   float: left;
   margin-right: 31px;
   font-weight: 600; }
@@ -292,7 +304,8 @@ div.skills .title {
     text-align: center;
     margin: 100px 0 50px;
     font-family: "MyriadProBold";
-    font-size: 3em; }
+    font-size: 3em;
+    text-transform: uppercase; }
   .must-know-section .main-block {
     width: 100%; }
     .must-know-section .main-block .tech-block {
@@ -300,7 +313,7 @@ div.skills .title {
       position: relative;
       left: 9%;
       float: left;
-      margin-bottom: 50px; }
+      margin-bottom: 120px; }
     .must-know-section .main-block .tech-block:last-child {
       left: 2%; }
       .must-know-section .main-block .tech-block:last-child .info-wrapper {
@@ -350,7 +363,7 @@ div.skills .title {
       height: 520px; }
   .must-know-section .img-code {
     float: left;
-    margin-left: 28%; }
+    margin-left: 29%; }
 
 /*----------------------------------------------------------------------------------*/
 /*-------------------------------------SIDEBAR--------------------------------------*/
@@ -408,13 +421,13 @@ div.skills .title {
 #previous {
   z-index: 5;
   position: absolute;
-  bottom: 50%;
+  bottom: 46%;
   left: 15px; }
 
 #next {
   z-index: 5;
   position: absolute;
-  bottom: 50%;
+  bottom: 46%;
   right: 15px; }
 
 /*----------------------------------------------------------------------------------*/
@@ -482,7 +495,7 @@ div.skills .title {
         font-family: "MyriadProRegular"; }
       .footer .contacts .form-wrapper .thanks {
         float: right;
-        margin-right: 20%;
+        margin-right: 24%;
         font-family: "MyriadProRegular";
         font-size: 1.6em; }
     .footer .contacts .conteiner {
@@ -798,7 +811,7 @@ footer {
   .mobile-menu {
     display: none; } }
 
-@media screen and (min-width: 1240px) {
+@media screen and (max-width: 1240px) {
   .footer .contacts .conteiner {
     padding-top: 3%; }
   .welcome-section .phone {
@@ -817,4 +830,10 @@ footer {
   .footer .contacts .form-wrapper .thanks {
     margin-right: 10%; }
   .must-know-section .main-block p {
-    font-size: 1.6em; } }
+    font-size: 1.6em; }
+  .must-know-section .main-block .tech-block:last-child .info-wrapper span.title {
+    right: 27%; }
+  .must-know-section .main-block .tech-block:last-child p {
+    margin: 8% 38%; }
+  .must-know-section .main-block .tech-block:last-child .info-wrapper button {
+    left: 231px; } }
