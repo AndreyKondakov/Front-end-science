@@ -171,23 +171,28 @@ font-face {
   .welcome-section .menu li {
     float: left; }
     .welcome-section .menu li a {
+      font-size: 1.2em;
+      letter-spacing: 1px;
       display: block;
       color: #fff;
-      padding: 35.7px 22px;
+      padding: 35.2px 39px;
       border-bottom: 1px solid transparent;
-      font-family: MyriadProRegular, sans-serif; }
+      font-family: GeometriaRegular, sans-serif; }
     .welcome-section .menu li a:hover {
       border-bottom: 1px solid #f7b940; }
+  .welcome-section .phone {
+    margin-right: 20px; }
   .welcome-section .phone li {
     margin-right: 20px; }
   .welcome-section .lang a, .welcome-section .phone li a {
+    font-size: 1.3em;
     color: #53d0fb;
     vertical-align: middle;
     font-family: MyriadProRegular, sans-serif; }
   .welcome-section .lang {
-    margin-right: 5px; }
+    margin-right: 8px; }
     .welcome-section .lang a {
-      padding: 0 5px;
+      padding: 0 12px;
       border-right: 1px solid #53d0fb; }
     .welcome-section .lang :last-child a {
       border-right: 1px solid transparent; }
@@ -199,17 +204,18 @@ font-face {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 2;
-    padding-top: 9%; }
+    padding-top: 12%; }
     .welcome-section .slider-info img {
       width: 30%; }
     .welcome-section .slider-info .welcome-slogan {
       color: #fff;
-      margin: 30px 0;
-      font-size: 24px; }
+      margin: 50px 0; }
       .welcome-section .slider-info .welcome-slogan h2:first-child {
-        font-family: MyriadProBold; }
+        font-family: MyriadProBold;
+        font-size: 48px; }
       .welcome-section .slider-info .welcome-slogan h2:last-child {
-        font-family: MyriadProRegular; }
+        font-family: MyriadProRegular;
+        font-size: 48px; }
   .welcome-section .carousel {
     height: 100%;
     color: #fff; }
@@ -236,53 +242,57 @@ section.about-f-e-devel {
       width: 45%; }
     section.about-f-e-devel .parallax h3 {
       font-family: "MyriadProRegular";
-      font-size: 19px; }
+      font-size: 3em; }
   section.about-f-e-devel .info p {
     margin: 12px 0;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "MyriadProRegular"; }
   section.about-f-e-devel .info h4.border {
     padding: 4% 7%;
     text-align: center;
-    font-size: 16px;
-    margin: 12% 0; }
+    font-size: 2.55em;
+    margin: 12% 0;
+    font-family: "MyriadPro-Semibold", sans-serif; }
 
 div.skills .info {
   margin-top: 20px; }
   div.skills .info span.title, div.skills .info p {
     position: relative;
-    top: 10px; }
+    top: 38px; }
   div.skills .info p {
-    font-family: "MyriadProRegular"; }
+    font-family: "GeometriaRegular";
+    font-size: 1.5em;
+    top: 43px; }
 
 div.skills ul.tech-list li {
   float: left;
   width: 33.33333%;
-  padding: 4% 5% 2%;
+  padding: 4% 8% 2%;
   background-color: #f4f4f4; }
 
 div.skills ul.tech-list .icon-holder {
   height: 218px; }
 
 div.skills .number {
-  font-size: 55px;
+  font-family: "MyriadProBold";
+  font-size: 10em;
   float: left;
-  margin-right: 15px;
+  margin-right: 31px;
   font-weight: 600; }
 
 div.skills .title {
   font-family: "MyriadProBold";
-  font-size: 15px; }
+  font-size: 2.45em; }
 
 .must-know-section {
-  float: left;
-  width: 100%;
-  margin-bottom: 30px; }
+  clear: both;
+  margin-bottom: 30px;
+  margin-top: 512px; }
   .must-know-section h3.title {
     text-align: center;
     margin: 100px 0 50px;
     font-family: "MyriadProBold";
-    font-size: 24px; }
+    font-size: 3em; }
   .must-know-section .main-block {
     width: 100%; }
     .must-know-section .main-block .tech-block {
@@ -294,40 +304,50 @@ div.skills .title {
     .must-know-section .main-block .tech-block:last-child {
       left: 2%; }
       .must-know-section .main-block .tech-block:last-child .info-wrapper {
-        float: right;
-        left: 25%; }
+        left: 17%; }
         .must-know-section .main-block .tech-block:last-child .info-wrapper span.title {
           position: relative;
           right: 57%; }
+      .must-know-section .main-block .tech-block:last-child p {
+        margin: 8% -4%; }
+      .must-know-section .main-block .tech-block:last-child .info-wrapper button {
+        right: -16px;
+        left: 134px; }
     .must-know-section .main-block .info-wrapper {
-      width: 22%;
+      width: 20%;
       float: left;
       position: relative;
-      left: 130px;
+      left: 14%;
       top: 30px; }
+      .must-know-section .main-block .info-wrapper button {
+        position: relative;
+        left: 14%;
+        top: 50px; }
     .must-know-section .main-block p {
-      margin: 20px 17px;
+      margin: 8% 15%;
       font-family: "Geometria-Light";
-      font-size: 14px; }
+      font-size: 2em;
+      width: 380px; }
     .must-know-section .main-block .info-wrapper:last-child {
       position: relative;
       left: 30%;
       text-align: right; }
     .must-know-section .main-block span.title {
-      padding: 30px 0;
+      padding: 51px 0;
       display: block;
-      width: 260px;
+      width: 470px;
+      height: 150px;
       font-family: "MyriadProBold";
       text-align: center;
-      font-size: 18px;
+      font-size: 3em;
       opacity: 1;
       background-color: #ffffff29; }
   .must-know-section .img-code {
     float: right;
     width: 50%; }
     .must-know-section .img-code img {
-      width: 520px;
-      height: 300px; }
+      width: 790px;
+      height: 520px; }
   .must-know-section .img-code {
     float: left;
     margin-left: 28%; }
@@ -419,17 +439,19 @@ div.skills .title {
     min-height: 75%; }
     .footer .contacts h5 {
       font-family: "MyriadProBold";
-      font-size: 18px; }
+      font-size: 2em; }
     .footer .contacts h5:first-child {
       position: absolute; }
     .footer .contacts .contact {
       width: 30%;
       float: left;
       display: flex; }
+      .footer .contacts .contact ul {
+        margin-top: 50px; }
       .footer .contacts .contact ul li {
         font-family: "MyriadProRegular";
-        font-size: 13px;
-        margin-top: 40px; }
+        font-size: 1.4em;
+        margin: 50px auto; }
         .footer .contacts .contact ul li i {
           margin-right: 11px;
           margin-top: 4px;
@@ -437,34 +459,36 @@ div.skills .title {
     .footer .contacts .form-wrapper {
       width: 68%;
       float: right; }
+      .footer .contacts .form-wrapper .contact-form {
+        margin-top: 63px; }
       .footer .contacts .form-wrapper input {
-        width: 30%;
-        height: 30px;
+        width: 32%;
+        height: 45px;
         background-color: transparent;
         border: 1px solid #fff;
         padding: 5px;
-        margin: 40px 14px 30px 0;
+        margin: 40px 7px 30px 0;
         color: #fff;
         font-family: "MyriadProRegular"; }
       .footer .contacts .form-wrapper .message {
-        width: 97%;
-        height: 130px;
+        width: 99%;
+        height: 195px;
         background-color: transparent;
         border: 1px solid #fff;
         padding: 5px;
         resize: none;
         color: #fff;
-        margin-bottom: 30px;
+        margin-bottom: 60px;
         font-family: "MyriadProRegular"; }
       .footer .contacts .form-wrapper .thanks {
         float: right;
         margin-right: 20%;
         font-family: "MyriadProRegular";
-        font-size: 15px; }
+        font-size: 1.6em; }
     .footer .contacts .conteiner {
       margin-left: 20%;
       width: 60%;
-      padding-top: 50px; }
+      padding-top: 5%; }
   .footer .bg-footer {
     background-color: rgba(0, 0, 0, 0.6);
     height: 100%;
@@ -526,7 +550,7 @@ div.share {
 
 .buttons .btn-answer {
   color: #fff;
-  padding: 20px 0;
+  padding: 14px 0;
   background-color: transparent;
   border: 1px solid #414a56;
   width: 227px;
@@ -674,12 +698,15 @@ footer {
   section.about-f-e-devel .info {
     width: 65%; }
   .footer .contacts .form-wrapper input {
-    margin: 10px 14px 30px 0;
+    margin: 10px 7px 30px 0;
     width: 80%; }
   .footer .contacts .conteiner {
     margin-left: 3%;
     width: 97%;
-    padding-top: 34px; } }
+    padding-top: 34px; }
+  .bg-footer .contact {
+    position: relative;
+    right: 7px; } }
 
 .mobile-menu {
   text-align: right;
@@ -770,3 +797,24 @@ footer {
 @media screen and (min-width: 999px) {
   .mobile-menu {
     display: none; } }
+
+@media screen and (min-width: 1240px) {
+  .footer .contacts .conteiner {
+    padding-top: 3%; }
+  .welcome-section .phone {
+    margin-right: 15px; }
+  .welcome-section li {
+    margin-right: 10px; }
+  .welcome-section .menu li a {
+    font-size: 1.1em;
+    padding: 37.2px 13px 34.1px; }
+  .welcome-section .lang a, .welcome-section .welcome-section .phone li a {
+    font-size: 1.1em; }
+  .footer .contacts .contact ul, .footer .contacts .form-wrapper .contact-form {
+    margin-top: 0; }
+  .footer .contacts .form-wrapper input {
+    width: 31.8%; }
+  .footer .contacts .form-wrapper .thanks {
+    margin-right: 10%; }
+  .must-know-section .main-block p {
+    font-size: 1.6em; } }

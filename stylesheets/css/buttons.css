@@ -18,8 +18,10 @@
 	min-width: 150px;
 	max-width: 250px;
 	display: block;
-	/*margin: 1em;*/
-	padding: 1em 2em;
+	margin: 1em;
+	/*padding: 1em 2em;*/
+	width: 227px;
+	height: 50px;
 	border: none;
 	background: none;
 	color: inherit;
@@ -28,6 +30,9 @@
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
+	font-family: "MyriadProBold";
+	font-size: 1.5em;
+
 }
 .button:focus {
 	outline: none;
