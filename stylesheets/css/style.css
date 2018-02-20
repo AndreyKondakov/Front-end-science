@@ -691,36 +691,6 @@ footer {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased; }
 
-@media screen and (max-width: 1170px) {
-  .welcome-section header.header {
-    overflow: hidden; } }
-
-@media screen and (max-width: 768px) {
-  .welcome-section .slider-info img {
-    margin-top: 107px; }
-  div.skills ul.tech-list li {
-    float: inherit;
-    width: 100%;
-    display: flex;
-    justify-content: center; }
-  div.skills .info {
-    margin-left: 15px; }
-  section.about-f-e-devel .parallax {
-    left: 0;
-    width: 30%; }
-  section.about-f-e-devel .info {
-    width: 65%; }
-  .footer .contacts .form-wrapper input {
-    margin: 10px 7px 30px 0;
-    width: 80%; }
-  .footer .contacts .conteiner {
-    margin-left: 3%;
-    width: 97%;
-    padding-top: 34px; }
-  .bg-footer .contact {
-    position: relative;
-    right: 7px; } }
-
 .mobile-menu {
   text-align: right;
   padding: 24px; }
@@ -785,6 +755,10 @@ footer {
 .mobile-menu.menu_state_open .menu__links {
   display: block; }
 
+@media screen and (max-width: 1170px) {
+  .welcome-section header.header {
+    overflow: hidden; } }
+
 @media screen and (max-width: 999px) {
   .menu__icon {
     display: inline-block; }
@@ -811,22 +785,23 @@ footer {
   .mobile-menu {
     display: none; } }
 
-@media screen and (max-width: 1240px) {
+@media screen and (min-width: 1240px) {
   .footer .contacts .conteiner {
     padding-top: 3%; }
   .welcome-section .phone {
     margin-right: 15px; }
   .welcome-section li {
-    margin-right: 10px; }
+    margin-right: 1px !important; }
   .welcome-section .menu li a {
     font-size: 1.1em;
+    letter-spacing: 0;
     padding: 37.2px 13px 34.1px; }
   .welcome-section .lang a, .welcome-section .welcome-section .phone li a {
     font-size: 1.1em; }
   .footer .contacts .contact ul, .footer .contacts .form-wrapper .contact-form {
     margin-top: 0; }
   .footer .contacts .form-wrapper input {
-    width: 31.8%; }
+    width: 31.7%; }
   .footer .contacts .form-wrapper .thanks {
     margin-right: 10%; }
   .must-know-section .main-block p {
@@ -836,4 +811,92 @@ footer {
   .must-know-section .main-block .tech-block:last-child p {
     margin: 8% 38%; }
   .must-know-section .main-block .tech-block:last-child .info-wrapper button {
-    left: 231px; } }
+    left: 231px; }
+  .welcome-section .lang {
+    margin-right: 0; } }
+
+@media screen and (max-width: 768px) {
+  #next, #previous {
+    bottom: 40%; }
+  .welcome-section .slider-info img {
+    margin-top: 107px; }
+  div.skills ul.tech-list li {
+    float: inherit;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+  div.skills .info {
+    margin-left: 15px !important; }
+  div.skills li:nth-child(2) .info, div.skills li:nth-child(3) .info {
+    margin-left: 65px !important; }
+  section.about-f-e-devel .parallax {
+    left: 0;
+    width: 30%; }
+  section.about-f-e-devel .info {
+    width: 65%; }
+  .footer .contacts .form-wrapper input {
+    margin: 10px 7px 30px 0;
+    width: 80%; }
+  .footer .contacts .conteiner {
+    margin-left: 3%;
+    width: 97%;
+    padding-top: 34px; }
+  .bg-footer .contact {
+    position: relative;
+    right: 7px; }
+  .buttons {
+    margin-top: 84px;
+    display: flex; }
+  .welcome-slogan h2 {
+    font-size: 30px !important; }
+  .must-know-section {
+    margin-top: 80px; }
+  section.must-know-section .main-block .tech-block {
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column; }
+    section.must-know-section .main-block .tech-block img {
+      width: 100%;
+      height: 100%; }
+  section.must-know-section .main-block .info-wrapper {
+    width: 100%;
+    float: none;
+    position: static;
+    left: 0;
+    top: 0; }
+  section.must-know-section .main-block .img-code {
+    margin-left: 0;
+    width: 100%; }
+  section.must-know-section .main-block span.title {
+    width: 100%;
+    margin: 0.01em; }
+  section.must-know-section .main-block .info-wrapper button {
+    left: 87px;
+    top: -6px; }
+  section.must-know-section .main-block .tech-block:last-child .info-wrapper {
+    left: 0; }
+  section.must-know-section .main-block .tech-block:last-child .info-wrapper span.title {
+    right: 2%; }
+  footer .contact {
+    width: 100% !important;
+    height: inherit;
+    display: flex;
+    justify-content: center; }
+  footer.footer {
+    height: auto; }
+    footer.footer .contacts {
+      height: inherit; }
+      footer.footer .contacts .conteiner {
+        display: flex;
+        flex-direction: column; }
+    footer.footer .bg-footer {
+      height: inherit; }
+    footer.footer .contacts .form-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center; }
+      footer.footer .contacts .form-wrapper .thanks {
+        margin-top: 10px; }
+    footer.footer .social ul {
+      margin-top: 10px; } }
