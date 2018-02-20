@@ -785,7 +785,7 @@ footer {
   .mobile-menu {
     display: none; } }
 
-@media screen and (min-width: 1240px) {
+@media screen and (max-width: 1640px) {
   .footer .contacts .conteiner {
     padding-top: 3%; }
   .welcome-section .phone {
@@ -807,17 +807,17 @@ footer {
   .must-know-section .main-block p {
     font-size: 1.6em; }
   .must-know-section .main-block .tech-block:last-child .info-wrapper span.title {
-    right: 27%; }
+    right: 55%; }
   .must-know-section .main-block .tech-block:last-child p {
-    margin: 8% 38%; }
+    margin: 8% 0%; }
   .must-know-section .main-block .tech-block:last-child .info-wrapper button {
-    left: 231px; }
+    left: 174px; }
   .welcome-section .lang {
     margin-right: 0; } }
 
 @media screen and (max-width: 768px) {
   #next, #previous {
-    bottom: 40%; }
+    bottom: 42%; }
   .welcome-section .slider-info img {
     margin-top: 107px; }
   div.skills ul.tech-list li {
@@ -836,7 +836,9 @@ footer {
     width: 65%; }
   .footer .contacts .form-wrapper input {
     margin: 10px 7px 30px 0;
-    width: 80%; }
+    width: 90%; }
+  .footer .contacts .form-wrapper .message {
+    width: 90%; }
   .footer .contacts .conteiner {
     margin-left: 3%;
     width: 97%;
@@ -871,9 +873,14 @@ footer {
     width: 100%; }
   section.must-know-section .main-block span.title {
     width: 100%;
-    margin: 0.01em; }
+    margin: 1em;
+    width: 88%;
+    text-align: center;
+    height: 120px;
+    padding: 43px 0;
+    font-size: 2em; }
   section.must-know-section .main-block .info-wrapper button {
-    left: 87px;
+    left: 27px;
     top: -6px; }
   section.must-know-section .main-block .tech-block:last-child .info-wrapper, section.must-know-section .main-block .tech-block:last-child {
     left: 0; }
@@ -901,4 +908,14 @@ footer {
       footer.footer .contacts .form-wrapper .thanks {
         margin-top: 10px; }
     footer.footer .social ul {
-      margin-top: 10px; } }
+      margin-top: 10px; }
+  section.about-f-e-devel .parallax img {
+    width: 93%; }
+  section.about-f-e-devel .parallax h3 {
+    font-size: 2em; }
+  .must-know-section .main-block p {
+    margin: 8% 7%; }
+  .must-know-section h3.title {
+    font-size: 2em; }
+  section.about-f-e-devel .info h4.border {
+    font-size: 2em; } }
