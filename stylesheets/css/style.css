@@ -846,7 +846,8 @@ footer {
     right: 7px; }
   .buttons {
     margin-top: 84px;
-    display: flex; }
+    display: flex;
+    justify-content: center; }
   .welcome-slogan h2 {
     font-size: 30px !important; }
   .must-know-section {
@@ -874,10 +875,11 @@ footer {
   section.must-know-section .main-block .info-wrapper button {
     left: 87px;
     top: -6px; }
-  section.must-know-section .main-block .tech-block:last-child .info-wrapper {
+  section.must-know-section .main-block .tech-block:last-child .info-wrapper, section.must-know-section .main-block .tech-block:last-child {
     left: 0; }
   section.must-know-section .main-block .tech-block:last-child .info-wrapper span.title {
-    right: 2%; }
+    right: 0;
+    top: 5px; }
   footer .contact {
     width: 100% !important;
     height: inherit;
