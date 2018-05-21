@@ -288,20 +288,28 @@ div.skills {
       display: flex;
       flex-direction: column;
     }
-    li:first-child {
-      .icon-holder {text-align: right;}
-      .info {
+    //li:first-child {
+      //.icon-holder {text-align: right;}
+      //.info {
         //margin-left: 146px;
+        //align-self: center;
+        //width: 250px;
+      //}
+    //}
+    li {
+      .info {
         align-self: center;
         width: 250px;
       }
     }
-    li:nth-child(2) {
-      .icon-holder {
-        text-align: center;
-      }
+    //li:nth-child(2) {
+    //  .icon-holder {
+    //    text-align: center;
+    //  }
+    //}
+    li:last-child {
       .info {
-        margin-left: 75px;
+        align-self: start;
       }
     }
     .icon-holder {

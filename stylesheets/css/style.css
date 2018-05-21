@@ -271,18 +271,12 @@ div.skills ul.tech-list li {
   display: flex;
   flex-direction: column; }
 
-div.skills ul.tech-list li:first-child .icon-holder {
-  text-align: right; }
-
-div.skills ul.tech-list li:first-child .info {
+div.skills ul.tech-list li .info {
   align-self: center;
   width: 250px; }
 
-div.skills ul.tech-list li:nth-child(2) .icon-holder {
-  text-align: center; }
-
-div.skills ul.tech-list li:nth-child(2) .info {
-  margin-left: 75px; }
+div.skills ul.tech-list li:last-child .info {
+  align-self: start; }
 
 div.skills ul.tech-list .icon-holder {
   height: 218px; }
