@@ -229,8 +229,7 @@ font-face {
 /*-------------------------------------CONTENT--------------------------------------*/
 /*----------------------------------------------------------------------------------*/
 section.about-f-e-devel {
-  overflow: hidden;
-  margin-top: 48px; }
+  overflow: hidden; }
   section.about-f-e-devel .parallax, section.about-f-e-devel .info {
     width: 40%;
     float: left;
@@ -268,13 +267,16 @@ div.skills ul.tech-list li {
   float: left;
   width: 33.33333%;
   padding: 4% 5.2% 2%;
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column; }
 
 div.skills ul.tech-list li:first-child .icon-holder {
   text-align: right; }
 
 div.skills ul.tech-list li:first-child .info {
-  margin-left: 146px; }
+  align-self: center;
+  width: 250px; }
 
 div.skills ul.tech-list li:nth-child(2) .icon-holder {
   text-align: center; }

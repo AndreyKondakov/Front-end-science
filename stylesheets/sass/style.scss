@@ -233,7 +233,7 @@ font-face {
 
 section.about-f-e-devel {
   overflow: hidden;
-  margin-top: 48px;
+  //margin-top: 48px;
   .parallax, .info {
     width: 40%;
     float: left;
@@ -285,11 +285,15 @@ div.skills {
       width: 33.33333%;
       padding: 4% 5.2% 2%;
       background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
     }
     li:first-child {
       .icon-holder {text-align: right;}
       .info {
-        margin-left: 146px;
+        //margin-left: 146px;
+        align-self: center;
+        width: 250px;
       }
     }
     li:nth-child(2) {
