@@ -242,7 +242,7 @@ section.about-f-e-devel {
   .parallax {
     text-align: center;
     position: relative;
-    left: 5%;
+    left: 1%;
     img {
       width: 45%;
     }
@@ -627,7 +627,8 @@ div.share {
   right: -149px;
   z-index: 9999;
   color: #fff;
-
+  display: flex;
+  align-items: center;
 
   i {
     border: 1px solid #fff;
@@ -635,6 +636,9 @@ div.share {
     border-radius: 99px;
     margin: 7px;
     color: #fff;
+  }
+  a:last-child i {
+    padding: 10px 15px;
   }
 }
 

@@ -238,7 +238,7 @@ section.about-f-e-devel {
   section.about-f-e-devel .parallax {
     text-align: center;
     position: relative;
-    left: 5%; }
+    left: 1%; }
     section.about-f-e-devel .parallax img {
       width: 45%; }
     section.about-f-e-devel .parallax h3 {
@@ -545,13 +545,17 @@ div.share {
   bottom: 111px;
   right: -149px;
   z-index: 9999;
-  color: #fff; }
+  color: #fff;
+  display: flex;
+  align-items: center; }
   div.share i {
     border: 1px solid #fff;
     padding: 11px;
     border-radius: 99px;
     margin: 7px;
     color: #fff; }
+  div.share a:last-child i {
+    padding: 10px 15px; }
 
 .buttons :first-child {
   position: relative;
