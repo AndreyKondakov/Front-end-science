@@ -816,6 +816,8 @@ footer {
     margin-right: 0; } }
 
 @media screen and (max-width: 768px) {
+  div.share {
+    display: none; }
   #next, #previous {
     bottom: 42%; }
   .welcome-section .slider-info img {
@@ -904,7 +906,11 @@ footer {
     footer.footer .contacts .form-wrapper {
       width: 100%;
       display: flex;
-      justify-content: center; }
+      justify-content: center;
+      flex-direction: column; }
+      footer.footer .contacts .form-wrapper h5 {
+        position: relative;
+        text-align: center; }
       footer.footer .contacts .form-wrapper .thanks {
         margin-top: 10px; }
     footer.footer .social ul {

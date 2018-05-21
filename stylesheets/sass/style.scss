@@ -1049,6 +1049,9 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+  div.share {
+    display: none;
+  }
   #next, #previous {bottom: 42%}
   .welcome-section .slider-info img {
     margin-top: 107px;
@@ -1171,6 +1174,11 @@ footer {
       width: 100%;
       display: flex;
       justify-content: center;
+      flex-direction: column;
+      h5 {
+        position: relative;
+        text-align: center;
+      }
       .thanks {
         margin-top: 10px;
       }
